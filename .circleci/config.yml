@@ -47,6 +47,6 @@ workflows:
       - build:
           filters:
             branches:
-              ignore:
+              ignore:  # i'm gonna leave these here just in case i'll create again the branches  - Nex
                 - gh-pages
                 - gh-pages-generated
